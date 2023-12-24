@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Pusher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Top section of page -->
+    <div class="topSection">
+
+        <!-- logo -->
+        <div class="logo">
+            <img src="./Assets/wppusher-logo copy.png" alt="logo" />
+        </div>
+
+        <!-- Nav Bar -->
+        <div class="navBar">
+            <nav>
+                <a href="#">Download</a>
+                <a href="#">Learn More</a>
+                <a href="#">Pricing</a>
+                <a href="#">Help</a>
+                <a href="#">Account</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Down section -->
+    <div class="downSection">
+
+        <!-- Left hand side -->
+        <div class="left">
+            <h2>Checkout</h2>
+            <div class="basicInfo">
+                <p>
+                    <h4>
+                        <div id="subHead1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="15" stroke="#548BC5" stroke-width="2"/>
+                                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#548BC5" font-size="12">
+                                1 
+                                </text>
+                            </svg>
+                            <span>Your Basic Information</span>
+                        </div>
+                    </h4>
+                </p>
+                <div id="fullName">
+                    <div class="firstName">
+                      <label for="firstName" id="fnLabel">First Name</label><br />
+                      <input
+                        type="text"
+                        placeholder="Jane"
+                        id="firstName"
+                        name="firstName"
+                        required
+                        minlength="2"
+                      /><br /><br />
+                    </div>
+                    <div class="lastName">
+                      <label for="lastName" id="lnLabel">Last Name</label><br />
+                      <input
+                        type="text"
+                        placeholder="Doe"
+                        id="lastName"
+                        name="lastName"
+                        required
+                        minlength="2"
+                      /><br /><br />
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label><br />
+                    <input
+                        type="email"
+                        placeholder="janedoe@example.com"
+                        id="email"
+                        name="email"
+                        required
+                    /><br /><br />
+                </div>
+            </div>
+            <div class="paymentInfo">
+                <p>
+                    <h4>
+                        <div id="subHead2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="15" stroke="#548BC5" stroke-width="2"/>
+                                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#548BC5" font-size="12">
+                                2 
+                                </text>
+                            </svg>
+                            <span>Your Payment Information</span>  
+                        </div>
+                    </h4>
+                </p>
+                <div>
+                    <label for="creditCard" id="creditCard">Credit Card</label><br />
+                    <div class="merged-inputs">
+                        <input type="text" id="cardNumber" name="input1" placeholder="Card Number">
+                        <input type="text" id="date" name="input2" placeholder="MM/YY">
+                        <input type="text" id="cvc" name="input3" placeholder="CVC">
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button>Buy WP Pusher</button>
+            </div>
+            <div class="needHelp">
+                <img src="./Assets/Mask.png" alt="questionMark">
+                <p>
+                    <strong> Need any help?</strong> Don’t hesitate to contact support!
+                </p>
+            </div>
+            <div class="stripe">
+                <img src="./Assets/powered_by_stripe.png" alt="">
+            </div>
+        </div>
+
+        <!-- Right hand side -->
+        <div class="right">
+            <h4>Freelancer</h4>
+            <div class="price">
+                <span><sup>$</sup></span>
+                <span id="large">99</span>
+                <span><sub>/year</sub></span>
+            </div>
+            <p id="auto">Automatically renews after 1 year</p>
+            <div class="check">
+                <p>
+                    <img src="./Assets/Combined Shape.png" alt=""> 
+                    <span> Use on 5 client sites</span>
+                </p>
+                <p>
+                    <img src="./Assets/Combined Shape.png" alt="">
+                    <span> Private repositories</span>
+                </p>
+                <p>
+                    <img src="./Assets/Combined Shape.png" alt="">
+                    <span> Email support</span>
+                </p>
+            </div>
+            <div class="agencyPlan">
+                <p>
+                    Need 20 client sites? <br>
+                </p>
+                <p>
+                    <a href="#">Switch to the Agency plan.</a>
+                </p>
+                <br>
+                <hr>
+            </div>
+            <div class="comment">
+                <p>
+                    FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
+                </p>
+                <p class="writer">
+                    <img src="./Assets/Bitmap.png" alt="">
+                    <span>Kirk Beard</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">© 2018 WP Pusher IVS  ·  Terms of Service</footer>
+</body>
+</html>
